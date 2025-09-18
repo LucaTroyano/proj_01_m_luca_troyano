@@ -1,0 +1,385 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Ubuntu', 'Arimo', 'sans-serif';
+}
+
+
+.container {
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 0 1%;
+}
+
+.clear{clear:both;}
+
+header {
+    top: 0;
+    padding: 10px;
+    background-color:  red;
+    font-family: 'Ubuntu';
+    border-bottom: 2px solid rgba(0,0,0,0.2);
+    position: sticky;
+}
+
+.logo {
+    float: left;
+    margin-top: 10px;
+}
+
+.logo h2 {
+    margin-bottom: 5px;
+    font-style: italic;
+}
+
+.logo a {
+    text-decoration: none;
+    color: black;
+}
+
+.menu {
+    float: right;
+}
+
+.menu ul {
+    top: 8px;
+    margin: 0 auto;
+    margin-top: 10px;
+    display: inline-block;
+}
+
+.menu li {
+    padding: 0 10px;
+    display: inline-block;
+    text-decoration: none;
+}
+
+.menu a {
+    text-decoration: none;
+    color: black;
+    font-size: 15pt;
+}
+
+section.main-big {
+    position: relative;
+    width: 100%;
+    padding: 120px 0 200px 0;
+    height: 500px;
+    border-bottom: 2px solid red;
+    background-image: url(../imagens/daenerys_and_the_Dragon.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+section.main-big > .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 30vh;
+    position: relative;
+    z-index: 2;
+}
+
+.overlay {
+    z-index: 1;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.4);
+    left: 0;
+    top: 0;
+}
+
+
+
+.img-stark {
+    height: 250px;
+    width: 250px;
+    background-size: 100% 100%;
+    margin: 0 auto;
+    margin-top: 10px;
+}
+
+.conteudo-filha h1 {
+    font-weight: normal;
+    font-size: 26pt;
+    border-bottom: 1px solid #C8AD80;
+    color: white;
+}
+
+.conteudo-filha h2 {
+    font-weight: normal;
+    font-style: italic;
+    font-size: 17pt;
+    color: white;
+    text-align: center;
+    margin-top: 10px;
+}
+
+section.conteudo-principal {
+    width: 100%;
+    height: 60vh;
+    padding-top: 20px;
+}
+
+section.conteudo-principal > .container{
+    width: 100%;
+}
+
+.imagem-wraper {
+   width: 350px;
+   height: 360px;
+   border: 2px solid red;
+   box-shadow: 2px 2px 5px rgba(0,0,0,0.5);
+   margin: 0 auto;
+   margin-top: 40px;
+}
+
+.imagem-wraper img {
+    width: 100%;
+    background-size: cover;
+    background-size: 100% 100%;
+}
+
+.imagem-wraper p {
+    margin-top: 10px;
+    padding-left: 10px;
+    font-style: italic;
+    font-weight: normal;
+    text-shadow: 1px 1px 4px black;
+}
+
+.principal-filha h1 {
+    font-weight: normal;
+    font-size: 24pt;
+}
+
+.principal-filha p {
+    margin-top: 10px;
+}
+
+
+section.geografia {
+    margin-top: 20px;
+    height: 70vh;
+}
+
+section.geografia h1 {
+    margin-top: 30px;
+    font-weight: normal;
+    font-size: 24pt;
+    border-top: 2px solid red;
+    padding-top: 20px;
+}
+
+.geografia p {
+    margin-top: 20px;
+}
+
+.imagens-container {
+    display: flex;
+    gap: 10px;
+    margin-top: 40px;
+    justify-content: center;
+    align-items: center;
+}
+
+.imagem-wraper-muralha {
+   width: 350px;
+   height: 280px;
+   border: 2px solid red;
+   box-shadow: 2px 2px 5px rgba(0,0,0,0.5);
+}
+
+.imagem-wraper-muralha img {
+    width: 100%;
+    background-size: cover;
+    background-size: 100% 100%;
+    height: 80%;
+}
+
+.imagem-wraper-muralha p {
+    margin-top: 10px;
+    padding-left: 10px;
+    font-style: italic;
+    font-weight: normal;
+    text-shadow: 1px 1px 4px black;
+}
+
+.imagem-wraper-wintefell {
+   width: 350px;
+   height: 280px;
+   border: 2px solid red;
+   margin-left: 10px;
+   box-shadow: 2px 2px 5px rgba(0,0,0,0.3);
+}
+
+.imagem-wraper-wintefell img {
+    width: 100%;
+    background-size: cover;
+    background-size: 100% 100%;
+    height: 80%;
+}
+
+.imagem-wraper-wintefell p {
+    margin-top: 10px;
+    padding-left: 10px;
+    font-style: italic;
+    font-weight: normal;
+    text-shadow: 1px 1px 4px black;
+}
+
+section.historia {
+    height: 200vh;
+}
+
+.conteudo-historia h1 {
+    margin-top: 30px;
+    font-weight: normal;
+    font-size: 24pt;
+    border-top: 2px solid red;
+    padding-top: 20px;
+}
+
+.conteudo-historia h2 {
+    font-weight: normal;
+    font-size: 19pt;
+    margin-top: 20px;
+}
+
+.conteudo-historia p {
+    margin-top: 20px;
+    text-align: justify;
+}
+
+.imagem-wraper-brandon {
+   width: 550px;
+   height: 410px;
+   border: 2px solid red;
+   box-shadow: 2px 2px 5px rgba(0,0,0,0.5);
+   margin: 0 auto;
+   margin-top: 40px;
+}
+
+.imagem-wraper-brandon img {
+    width: 100%;
+    height: 90%;
+    background-size: cover;
+    background-size: 100% 100%;
+}
+
+.imagem-wraper-brandon p {
+    margin-top: 10px;
+    padding-left: 10px;
+    font-style: italic;
+    font-weight: normal;
+    text-shadow: 1px 1px 4px black;
+}
+
+.imagem-wraper-aegon {
+   width: 350px;
+   height: 410px;
+   border: 2px solid red;
+   box-shadow: 2px 2px 5px rgba(0,0,0,0.5);
+   margin: 0 auto;
+   margin-top: 40px;
+}
+
+.imagem-wraper-aegon img {
+    width: 100%;
+    height: 90%;
+    background-size: cover;
+    background-size: 100% 100%;
+}
+
+.imagem-wraper-aegon p {
+    margin-top: 10px;
+    padding-left: 10px;
+    font-style: italic;
+    font-weight: normal;
+    text-shadow: 1px 1px 4px black;
+}
+
+
+footer {
+    padding-top: 30px;
+    width: 100%;
+    height: 150px;
+    border-top: 2px solid black;
+    box-shadow: 2px 2px 5px rgba(0,0,0,0.5);
+}
+
+
+.audio {
+   margin-top: 15px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+@media only screen and (max-width:1440px) {
+    section.conteudo-principal {
+        height: 70vh;
+    }
+
+    section.geografia {
+        height: 100vh;
+    }
+    section.historia {
+        height: 210vh;
+    }
+}
+
+
+@media only screen and (max-width: 1024px) {
+    section.conteudo-principal {
+        height: 90vh;
+    }
+    section.conteudo-principal p {
+        max-width: 1024px;
+    }
+    section.geografia {
+        height: 100vh;
+    }
+
+    section.historia {
+        height: 240vh;
+    }
+
+    .geo-principal p {
+        max-width: 1024px;
+    }
+
+    .conteudo-historia p {
+        max-width: 1024px;
+    }
+}
+
+@media only screen and (max-width: 550px) {
+    section.conteudo-principal {
+        height: 90vh;
+    }
+    section.conteudo-principal p {
+        max-width: 1024px;
+    }
+    section.geografia {
+        height: 130vh;
+    }
+
+    section.historia {
+        height: 342vh;
+    }
+
+    .geo-principal p {
+        max-width: 1024px;
+    }
+
+    .conteudo-historia p {
+        max-width: 1024px;
+    }
+}
+
+
