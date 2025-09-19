@@ -333,6 +333,19 @@ footer {
     }
 }
 
+@media only screen and (max-width:1366px) {
+    section.conteudo-principal {
+        height: 75vh;
+    }
+
+    section.geografia {
+        height: 100vh;
+    }
+    section.historia {
+        height: 250vh;
+    }
+}
+
 
 @media only screen and (max-width: 1024px) {
     section.conteudo-principal {
@@ -355,6 +368,18 @@ footer {
 
     .conteudo-historia p {
         max-width: 1024px;
+    }
+}
+
+@media only screen and (max-height: 900px) {
+    section.conteudo-principal {
+        height: 70vh;
+    }
+    section.geografia {
+        height: 80vh;
+    }
+    section.historia {
+        height: 210vh;
     }
 }
 

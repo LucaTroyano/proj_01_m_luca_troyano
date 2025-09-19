@@ -253,6 +253,31 @@ footer {
 
 
 }
+@media only screen and (max-width:1366px) {
+    .conteudo {
+        height: 142vh;
+    }
+    .conteudo p {
+        max-width: 100%;
+    }
+
+    .geografia {
+        height: 70%;
+    }
+    .historia {
+        height: 465vh;
+    }
+
+    .conteudo p {
+        max-width: 100%;
+    }
+
+    .geografia p {
+        max-width: 100%;
+    }
+
+    
+}
 
 
 @media only screen and (max-width: 1024px) {
@@ -265,6 +290,29 @@ footer {
 
     .historia {
         height: 430vh;
+    }
+
+    .geografia p {
+        max-width: 100%;
+    }
+
+    .historia p {
+        max-width: 100%;
+    }
+
+    
+}
+
+@media only screen and (max-height: 900px) {
+    .conteudo {
+        height: 160vh;
+    }
+    .conteudo p {
+        max-width: 100%;
+    }
+
+    .historia {
+        height: 400vh;
     }
 
     .geografia p {

@@ -285,6 +285,18 @@ footer {
     
 }
 
+@media only screen and (max-height: 900px) {
+    section.conteudo-principal {
+        height: 70vh;
+    }
+    section.geografia {
+        height: 120vh;
+    }
+    section.historia {
+        height: 150vh;
+    }
+}
+
 @media only screen and (max-width: 550px) {
     section.conteudo-principal {
         height: 90vh;

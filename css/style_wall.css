@@ -199,6 +199,31 @@ footer {
    align-items: center;
 }
 
+@media only screen and (max-width:1680px) {
+    section.conteudo-principal {
+        height: 30%;
+    }
+     section.conteudo-principal p {
+        max-width: 100%;
+    }
+
+    section.geografia {
+        height: 70%;
+    }
+    section.historia {
+        height: 170vh;
+    }
+
+    .conteudo-historia p {
+        max-width: 100%;
+    }
+
+    .geo-principal p {
+        max-width: 100%;
+    }
+
+
+}
 @media only screen and (max-width:1440px) {
     section.conteudo-principal {
         height: 30%;
@@ -212,6 +237,32 @@ footer {
     }
     section.historia {
         height: 170vh;
+    }
+
+    .conteudo-historia p {
+        max-width: 100%;
+    }
+
+    .geo-principal p {
+        max-width: 100%;
+    }
+
+
+}
+
+@media only screen and (max-width:1366px) {
+    section.conteudo-principal {
+        height: 30%;
+    }
+     section.conteudo-principal p {
+        max-width: 100%;
+    }
+
+    section.geografia {
+        height: 170vh;
+    }
+    section.historia {
+        height: 180vh;
     }
 
     .conteudo-historia p {
