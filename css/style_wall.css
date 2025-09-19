@@ -337,7 +337,9 @@ footer {
     section.geografia {
         height: 270vh;
     }
-
+    .menu a {
+        text-align: center;
+    }
 
     .geo-principal p {
         max-width: 100%;
