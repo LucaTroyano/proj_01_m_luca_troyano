@@ -441,24 +441,33 @@ footer {
     }
     section.conteudo-principal p {
         max-width: 100%;
+        padding: 5px;
     }
     section.geografia {
-        height: 110vh;
+        height: 160vh;
     }
 
     section.historia {
-        height: 210vh;
+        height: 218vh;
     }
 
     .geo-principal p {
         max-width: 100%;
+        padding: 5px;
     }
 
     .conteudo-historia p {
         max-width: 100%;
+        padding: 5px;
     }
 
-    .imagens-container2{
+    .imagens-container{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+     .imagens-container2{
         flex-direction: column;
         justify-content: center;
         align-items: center;
@@ -466,6 +475,10 @@ footer {
 
     .imagem-wraper-jon {
         margin-left: 5px;
+    }
+
+    .imagem-wraper-castelo {
+        margin-right: 10px;
     }
 
   

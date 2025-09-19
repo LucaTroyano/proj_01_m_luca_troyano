@@ -419,27 +419,36 @@ footer {
 
 @media only screen and (max-width: 550px) {
     section.conteudo-principal {
-        height: 90vh;
+        height: 120vh;
     }
     section.conteudo-principal p {
         max-width: 100%;
+        padding: 5px;
     }
     section.geografia {
-        height: 110vh;
+        height: 138vh;
     }
 
     section.historia {
-        height: 340vh;
+        height: 450vh;
     }
 
     .geo-principal p {
         max-width: 100%;
+        padding: 5px;
     }
-
+     .imagens-container{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
     .conteudo-historia p {
         max-width: 100%;
+        padding: 5px;
     }
-
+    .imagem-wraper-wintefell {
+        margin-right: 10px;
+    }
     
 }
 

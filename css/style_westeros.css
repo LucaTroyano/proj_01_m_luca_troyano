@@ -350,29 +350,40 @@ footer {
 }
 
 @media only screen and (max-width: 550px) {
+
+    .iframe {
+        margin: 0 auto;
+        margin-right: 200px;
+    }
     .imagem-wraper-mapa {
         margin: 0 auto;
-        margin-top: 400px;
+        margin-top: 100px;
+        margin-right: 20px;
+        float: none;
 }
 
     .conteudo {
-        height: 230vh;
+        height: 200vh;
 }
+
 
     .conteudo p {
         max-width: 100%;
+        padding: 5px;
     }
 
     .historia {
-        height: 670vh;
+        height: 710vh;
     }
 
     .geografia p {
         max-width: 100%;
+        padding: 5px;
     }
 
     .historia p {
         max-width: 100%;
+        padding: 5px;
     }
 
 }

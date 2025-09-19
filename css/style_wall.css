@@ -332,6 +332,7 @@ footer {
     }
     section.conteudo-principal p {
         max-width: 100%;
+        padding: 5px;
     }
     section.geografia {
         height: 270vh;
@@ -340,10 +341,12 @@ footer {
 
     .geo-principal p {
         max-width: 100%;
+        padding: 5px;
     }
 
     .conteudo-historia p {
         max-width: 100%;
+        padding: 5px;
     }
 
     

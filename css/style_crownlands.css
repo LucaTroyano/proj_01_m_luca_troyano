@@ -405,19 +405,31 @@ footer {
         max-width: 1024px;
     }
     section.geografia {
-        height: 130vh;
+        height: 170vh;
     }
 
     section.historia {
-        height: 342vh;
+        height: 430vh;
     }
 
     .geo-principal p {
         max-width: 1024px;
+        padding: 5px;
     }
 
     .conteudo-historia p {
         max-width: 1024px;
+        padding: 5px;
+    }
+
+    .imagens-container{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .imagem-wraper-wintefell {
+        margin-right: 10px;
     }
 }
 

@@ -146,6 +146,7 @@ section.conteudo-principal > .container{
     padding-left: 10px;
     font-style: italic;
     font-weight: normal;
+    text-shadow: 1px 1px 4px black;
 }
 
 .principal-filha h1{
@@ -191,6 +192,7 @@ section.geografia {
     padding-left: 10px;
     font-style: italic;
     font-weight: normal;
+    text-shadow: 1px 1px 4px black;
 }
 
 
@@ -230,6 +232,7 @@ section.historia {
     padding-left: 10px;
     font-style: italic;
     font-weight: normal;
+    text-shadow: 1px 1px 4px black;
 }
 
 footer {
@@ -361,6 +364,7 @@ footer {
         height: 90vh;
     }
     section.conteudo-principal p {
+        padding: 5px;
         max-width: 100%;
     }
     section.geografia {
@@ -368,15 +372,17 @@ footer {
     }
 
     section.historia {
-        height: 130vh;
+        height: 135vh;
     }
 
     .geo-principal p {
         max-width: 100%;
+        padding: 5px;
     }
 
     .conteudo-historia p {
         max-width: 100%;
+        padding: 5px;
     }
 
     
