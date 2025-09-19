@@ -367,7 +367,7 @@ footer {
 }
 
     .iframe {
-        max-width: 100%;
+        width: 700px;
         overflow-x: scroll;
     }
     .conteudo p {
