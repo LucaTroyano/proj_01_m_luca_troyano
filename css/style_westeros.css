@@ -326,6 +326,29 @@ footer {
     
 }
 
+@media only screen and (max-height: 768px) {
+    .conteudo {
+        height: 160vh;
+    }
+    .conteudo p {
+        max-width: 100%;
+    }
+
+    .historia {
+        height: 470vh;
+    }
+
+    .geografia p {
+        max-width: 100%;
+    }
+
+    .historia p {
+        max-width: 100%;
+    }
+
+    
+}
+
 @media only screen and (max-width: 550px) {
     .imagem-wraper-mapa {
         margin: 0 auto;
