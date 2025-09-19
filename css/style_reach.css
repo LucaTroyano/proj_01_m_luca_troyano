@@ -78,7 +78,7 @@ section.main-big > .container {
     justify-content: center;
     align-items: center;
     width: 100%;
-    height: 30vh;
+    height: fit-content;
     position: relative;
     z-index: 2;
 }
@@ -119,7 +119,7 @@ section.main-big > .container {
 
 section.conteudo-principal {
     width: 100%;
-    height: 61vh;
+    height: fit-content;
     padding-top: 20px;
 }
 
@@ -162,7 +162,7 @@ section.conteudo-principal > .container{
 
 section.geografia {
     margin-top: 20px;
-    height: 60vh;
+    height: fit-content;
 }
 
 section.geografia h1 {
@@ -231,7 +231,7 @@ section.geografia h1 {
 }
 
 section.historia {
-    height: 200vh;
+    height: fit-content;
 }
 
 .conteudo-historia h1 {
@@ -316,17 +316,17 @@ footer {
 
 @media only screen and (max-width:1440px) {
     section.conteudo-principal {
-        height: 30%;
+        height: fit-content;
     }
      section.conteudo-principal p {
         max-width: 100%;
     }
 
     section.geografia {
-        height: 70%;
+        height: fit-content
     }
     section.historia {
-        height: 170vh;
+        height: fit-content;
     }
 
     .conteudo-historia p {
@@ -342,17 +342,17 @@ footer {
 
 @media only screen and (max-width:1366px) {
     section.conteudo-principal {
-        height: 30%;
+        height: fit-content;
     }
      section.conteudo-principal p {
         max-width: 100%;
     }
 
     section.geografia {
-        height: 70%;
+        height: fit-content;
     }
     section.historia {
-        height: 280vh;
+        height: fit-content;
     }
 
     .conteudo-historia p {
@@ -369,17 +369,17 @@ footer {
 
 @media only screen and (max-width: 1024px) {
     section.conteudo-principal {
-        height: 90vh;
+        height: fit-content;
     }
     section.conteudo-principal p {
         max-width: 100%;
     }
     section.geografia {
-        height: 80vh;
+        height: fit-content;
     }
 
     section.historia {
-        height: 260vh;
+        height: fit-content;
     }
 
     .geo-principal p {
@@ -395,42 +395,42 @@ footer {
 
 @media only screen and (max-height: 900px) {
     section.conteudo-principal {
-        height: 73vh;
+        height: fit-content;
     }
     section.geografia {
-        height: 80vh;
+        height: fit-content;
     }
     section.historia {
-        height: 230vh;
+        height: fit-content;
     }
 }
 
 @media only screen and (max-height: 768px) {
     section.conteudo-principal {
-        height: 75vh;
+        height: fit-content;
     }
     section.geografia {
-        height: 80vh;
+        height: fit-content;
     }
     section.historia {
-        height: 249vh;
+        height: fit-content;
     }
 }
 
 @media only screen and (max-width: 550px) {
     section.conteudo-principal {
-        height: 120vh;
+        height: fit-content;
     }
     section.conteudo-principal p {
         max-width: 100%;
         padding: 5px;
     }
     section.geografia {
-        height: 138vh;
+        height: fit-content;
     }
 
     section.historia {
-        height: 450vh;
+        height: fit-content;
     }
 
     .geo-principal p {

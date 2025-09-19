@@ -129,6 +129,7 @@ iframe {
    height: 730px;
    margin: 0 auto;
    margin-top: 90px;
+   margin-left: 30px;
    border: 2px solid black;
    float: right;
 
@@ -159,7 +160,7 @@ iframe {
 
 .conteudo {
     width: 100%;
-    height: 115vh;
+    height: fit-content;
 }
 
 .conteudo p {
@@ -169,7 +170,7 @@ iframe {
 
 .historia {
     border-top: 1px solid #C8AD80;
-    height: 330vh;
+    height: fit-content;
 }
 
 .historia p {
@@ -230,17 +231,17 @@ footer {
 
 @media only screen and (max-width:1440px) {
     .conteudo {
-        height: 130vh;
+        height: fit-content;
     }
     .conteudo p {
         max-width: 100%;
     }
 
     .geografia {
-        height: 70%;
+        height: fit-content;
     }
     .historia {
-        height: 400vh;
+        height: fit-content;
     }
 
     .conteudo p {
@@ -255,17 +256,17 @@ footer {
 }
 @media only screen and (max-width:1366px) {
     .conteudo {
-        height: 142vh;
+        height: fit-content;
     }
     .conteudo p {
         max-width: 100%;
     }
 
     .geografia {
-        height: 70%;
+        height: fit-content;
     }
     .historia {
-        height: 465vh;
+        height: fit-content;
     }
 
     .conteudo p {
@@ -282,14 +283,14 @@ footer {
 
 @media only screen and (max-width: 1024px) {
     .conteudo {
-        height: 160vh;
+        height: fit-content;
     }
     .conteudo p {
         max-width: 100%;
     }
 
     .historia {
-        height: 430vh;
+        height: fit-content;
     }
 
     .geografia p {
@@ -305,14 +306,14 @@ footer {
 
 @media only screen and (max-height: 900px) {
     .conteudo {
-        height: 160vh;
+        height: fit-content;
     }
     .conteudo p {
         max-width: 100%;
     }
 
     .historia {
-        height: 400vh;
+        height: fit-content;
     }
 
     .geografia p {
@@ -328,14 +329,14 @@ footer {
 
 @media only screen and (max-height: 768px) {
     .conteudo {
-        height: 160vh;
+        height: fit-content;
     }
     .conteudo p {
         max-width: 100%;
     }
 
     .historia {
-        height: 500vh;
+        height: fit-content;
     }
 
     .geografia p {
@@ -363,7 +364,7 @@ footer {
 }
 
     .conteudo {
-        height: 200vh;
+        height: fit-content;
 }
 
     .iframe {
@@ -376,13 +377,9 @@ footer {
     }
 
     .historia {
-        height: 710vh;
+        height: fit-content;
     }
 
-    .geografia p {
-        max-width: 100%;
-        padding: 5px;
-    }
 
     .historia p {
         max-width: 100%;
