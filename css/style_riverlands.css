@@ -116,7 +116,9 @@ section.main-big > .container {
     text-align: center;
     margin-top: 10px;
 }
-
+.principal-filha {
+    padding-bottom: 10px;
+}
 .principal-filha p{
     margin-top: 10px;
 }
@@ -161,6 +163,7 @@ section.conteudo-principal > .container{
 
 section.geografia {
     height: fit-content;
+    padding-bottom: 10px;
 }
 
 

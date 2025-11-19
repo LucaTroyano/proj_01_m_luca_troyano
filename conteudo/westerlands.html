@@ -91,12 +91,15 @@
         <div class="container">
         <p style="text-align: center;"><i>@luca.troyano</i></p>
             <div class="audio">
-            <audio controls volume="0.1" autoplay="autoplay" loop>
+            <audio controls volume="0.1" autoplay="autoplay" id="tag" loop>
                 <source src="../audio/oeste.mp3" type="audio/mpeg" >
             </audio>
         </div>
     </div>
     </footer>
-    
+    <script>
+            var audio = document.getElementById("tag")
+            audio.volume = 0.1
+        </script>
 </body>
 </html>

@@ -234,6 +234,7 @@ section.geografia h1 {
 
 section.historia {
     height: fit-content;
+    padding-bottom: 10px;
 }
 
 .conteudo-historia h1 {
